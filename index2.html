@@ -5,25 +5,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+        }
+
+        .boxcolor {
+            background-color: #C963C4FF;
+            width: 150px;
+            height: 200px;
+        }
+
+        span {
+            background-color: #C963C4FF;
+            color: white;
+        }
+
+        p {
+            font-weight: 900;
+        }
+
+        button {
+            justify-content: left;
+            align-items: center;
+            margin-top: 15px;
+            margin-left: 10px;
+            background-color: transparent;
+            color: #9432d5ff;
+            border-color: #9432d5ff;
+            padding: 3px 20px;
+        }
+
+        .boxblanca {
+            width: 500px;
+            height: 200px;
+        }
+
+        .box1 {
+            display: flex;
+            position: relative;
+            gap: 50px;
+        }
+
+        .imgproducto {
+            position: absolute;
+            top: 35px;
+            left: 100px;
+            bottom: 90px;
+        }
+
+        .boxcolor2{
+            background-color: rgb(146,82,167);
+            width: 150px;
+            height: 200px;
+        }
+ 
+        .imgproducto2 {
+            position: relative;
+            top: 35px;
+            left: 110px;
+            bottom: 90px;
+        }
+
+        .boxblanca2 {
+            width: 500px;
+            height: 200px;
+        }
+
+    </style>
+
 </head>
 
 <body>
     <div class="container">
-        <div class="boxcolor">
+        <div class="box1">
+            <div class="boxcolor">
 
-        </div>
-        <div class="box">
-            <div class="texto">
-                <p>Descubrilas</p>
+                <div class="imgproducto">
+                    <img src="oferta-especial.png" alt="" width="80" height="80">
+                </div>
             </div>
-        </div>
-        <p>No te pierdas las mejores ofertas al precio más bajo.</p>
-    </div>
-    <div>
-        <button class="boton">Ver más</button>
-    </div>
+            <div>
+                <div class="boxblanca">
+                    <h5><span>DESCUBRILAS</span></h5>
 
-    </div>
+                    <div>
+                        <p>No te pierdas las mejores ofertas <br> al mejor precio</p>
+                    </div>
+                    <div>
+                        <button>VER MÁS</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boxcolor2">
+
+                <div class="imgproducto2">
+                    <img src="sofa.png" alt="" width="80" height="80">
+                </div>
+            </div>
+            <div>
+                <div class="boxblanca2">
+                    <h5><span><span>FRÁVEGA CASA</span></span></h5>
+
+                    <div>
+                        <p>Hasta 40% OFF en colchones,<br>
+                            muebles y articulos de <br>
+                            decoracion seleccionados</p>
+                    </div>
+                    <div>
+                        <button>VER MÁS</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
 </body>
 
 </html>

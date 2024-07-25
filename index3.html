@@ -4,19 +4,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fravega</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .producto {
+            background-color: white;
+            border: 1px solid;
+        }
+
+        .producto-oferta {
+            background-color: #a74494ff;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            position: absolute;
+    
+        }
+
+        .img.producto {
+            background-color: white;
+            border: 1px solid;
+        }
+
+        .texto1 {
+            font-size: 15px;
+            text-align: left;
+        }
+
+        .numero-oferta {
+            font-size: 40px;
+            text-align: left;
+        }
+
+        .signos {
+            font-size: 20px;
+            text-align: right;
+        }
+
+        .box2 {
+            display: flex;
+            align-items: center;
+        }
+
+        .porcentaje {
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
     <main>
         <div class="container">
-            <div class="box1">
-                <div class="boxcolor">
-                    <div class="imgproducto">
+            <div class="producto">
+                <div class="producto-oferta">
+                    <div class="texto1">Hasta</div>
+                    <div class="box2"> <!--flex-->
+                        <div class="numero-oferta">25</div>
+                        <div class="signos">
+                            <div class="porcentaje">%</div>
+                            <div>Off</div>
+                        </div>
+                    </div>
 
+                </div>
+                <div class="img-producto">
+                    <img src="Computadoras.png" width="100%">
+
+                    <div>
+                        <p>Noteboks,tablets,smartwatches y mucho más en 6 sin interés.</p>
                     </div>
                 </div>
+            </div>
 
+            <div class="producto">
+                <div class="producto-oferta">
+                    <div class="texto1">Hasta</div>
+                    <div class="box2"> <!--flex-->
+                        <div class="numero-oferta">25</div>
+                        <div class="signos">
+                            <div class="porcentaje">%</div>
+                            <div>Off</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="img-producto">
+                    <img src="1_Highline.png" width="100%" height="400">
+
+                    <div>
+                        <p>Aprovecha hasta 6 sin interés en articulos de deporte y fitness.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="producto">
+                <div class="producto-oferta">
+                    <div class="texto1">Hasta</div>
+                    <div class="box2"> <!--flex-->
+                        <div class="numero-oferta">25</div>
+                        <div class="signos">
+                            <div class="porcentaje">%</div>
+                            <div>Off</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="img-producto">
+                    <img src="164643-800-auto.png" width="100%" height="400">
+
+                    <div>
+                        <p>Heladeras,cocinas,lavado y pequeños electrodomesticos en hasta 6 son interés.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
